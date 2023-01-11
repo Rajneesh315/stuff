@@ -222,14 +222,19 @@ def delt():
     3. Upper circle ticket
     0. Abort
     [1/2/3] : '''))
-    e = int(input("Enter the User ID: "))
-    l = input("Enter Password : ")
+
     t = ''
     if d == 1:
+        e = int(input("Enter the User ID: "))
+        l = input("Enter Password : ")
         t = 'movie'
     elif d == 2:
+        e = int(input("Enter the User ID: "))
+        l = input("Enter Password : ")
         t = 'frow'
     elif d == 3:
+        e = int(input("Enter the User ID: "))
+        l = input("Enter Password : ")
         t = 'upcb'
     elif d == 0:
         mnu()
@@ -261,6 +266,7 @@ def com():
 
 
 def mnu():
+    print('\n♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪')
     print("\n1. General Ticket")
     print("2. Front row ticket booking")
     print("3. Upper circle booking")
